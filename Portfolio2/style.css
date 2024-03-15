@@ -1,0 +1,33 @@
+/* ----------------------------------
+  Variables 
+  ------------------------------------ */
+:root {
+    --main-color: #03090d;
+    --blue: #11212D;
+    --lightBlue: #25374B;
+    --light1: #4A5C6A;
+    --light2: #9BA8AB;
+    --cream: #ccd0CF;
+    --white: #ffffff;
+    --white-alpha-40: rgba(255, 255, 255, 0.40);
+    --white-alpha-25: rgba(255, 255, 255, 0.25);
+    --black-filter-blur: blur(5px);
+}
+
+
+
+/* --------------------------------------
+ Global Settings 
+ ---------------------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
