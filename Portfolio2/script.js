@@ -18,6 +18,7 @@ document.addEventListener("click", (e)=> {
     if(e.target.classList.contains("link-item")&& e.target.hash !== ""){
         const hash = e.target.hash;
         //console.log(hash);
+        document.querySelector(".overlay").classList.add("active"); // activate overlay to prevent multiple clicks
         navToggler.classList.add("hide");
         if(e.target.classList.contains("nav-item")){
             //console.log("true");
@@ -33,6 +34,7 @@ document.addEventListener("click", (e)=> {
             window.scrollTo(0,0);
             document.body.classList.remove("hide-scrolling");
             navToggler.classList.remove("hide");
+            document.querySelector(".overlay").classList.remove("active");
         }, 500)
     }
 })
