@@ -230,6 +230,7 @@ ul {
     height: 100%;
     padding: 35px 15px;
     overflow-y: auto;
+    visibility: hidden;
 }
 .header .nav-inner{
     height: calc(100vh - 70px);
