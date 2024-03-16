@@ -98,7 +98,9 @@ section {
 section.active{
     display: block;
 }
-
+section.fade-out{
+    animation: fadeOut 0.5s ease-in-out forwards;
+}
 .main {
     width: 1500px;
     margin: auto;
