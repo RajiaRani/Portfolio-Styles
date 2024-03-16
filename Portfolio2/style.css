@@ -66,6 +66,9 @@ body::before {
     z-index: -1;
     opacity: 0.12;
 }
+body.hide-scrolling{
+    overflow-y: hidden;
+}
 h1, h2{
     font-weight: 600;
  }
@@ -87,6 +90,10 @@ section {
 .main {
     width: 1500px;
     margin: auto;
+    transition: all 0.5s ease-in-out;
+}
+.main.fade-out{
+    opacity: 0;
 }
 
 .container {
@@ -97,6 +104,9 @@ section {
 img {
     max-width: 100%;
     vertical-align: middle;
+}
+ul{
+    list-style: none;
 }
 .home-section {
     display: flex;
@@ -409,9 +419,17 @@ Portfolio Section
     height: 100%;
     width: 100%;
     z-index: 200;
+    visibility: hidden;
+}
+.portfolio-popup.open{
+    visibility: visible;
     overflow-y: auto;
 }
-
+.portfolio-popup.open .pp-content{
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
 .pp-inner{
     min-height: 100vh;
     padding: 40px 15px;
@@ -449,4 +467,19 @@ Portfolio Section
     font-size: 25px;
     text-transform: capitalize;
     margin: 20px 0 15px;
+}
+.pp-body .description {
+    margin-bottom: 30px;
+}
+.pp-body .general-info li{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.pp-body .general-info li span{
+    font-weight: 300;
+}
+.pp-body .general-info li a{
+    text-transform: lowercase;
+    color: red;
 }
