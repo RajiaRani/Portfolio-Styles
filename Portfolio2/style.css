@@ -169,6 +169,14 @@ ul {
 }
 
 /* Header  */
+.header{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
 .header .nav-toggler{
     width: 50px;
     height: 50px;
