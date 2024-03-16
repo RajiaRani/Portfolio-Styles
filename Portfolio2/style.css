@@ -93,6 +93,7 @@ section {
     min-height: calc(100vh - 70px);
     border-radius: 30px;
     backdrop-filter: var(--black-filter-blur);
+    display: none;
 }
 
 .main {
@@ -121,7 +122,7 @@ ul {
 }
 
 .home-section {
-    display: flex;
+    /* display: flex; */
     padding: 0 120px;
 }
 
