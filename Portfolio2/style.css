@@ -429,3 +429,24 @@ Portfolio Section
     backdrop-filter: var(--black-filter-blur);
 
 }
+.pp-header{
+    position: relative;
+}
+.pp-header .btn{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+}
+.pp-thumbnail img{
+  border-radius: 10px;
+}
+.pp-header h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin: 20px 0 15px;
+}
