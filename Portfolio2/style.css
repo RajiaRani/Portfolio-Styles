@@ -333,6 +333,7 @@ About Section
 .about-text .tab-content.active{
     display: block;
 }
+
 .about-text .timeline-item{
     margin-bottom: 30px;
     padding: 10px 0 0 40px;
