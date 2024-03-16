@@ -97,15 +97,18 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-.align-items-center {
-    align-items: center;
-}
-
 .home-section {
     display: flex;
     padding: 0 120px;
 }
+
+.align-items-center {
+    align-items: center;
+}
+.hidden{
+    display: none !important;
+}
+
 /* ------------------------------------
   Custom Scrollbar 
   ------------------------------------ */
