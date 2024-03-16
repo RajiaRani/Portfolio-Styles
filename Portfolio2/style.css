@@ -227,6 +227,14 @@ ul {
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 35px 15px;
+}
+.header .nav-inner{
+    height: calc(100vh - 70px);
+    width: 1200px;
+    margin: auto;
+    background-color: var(--white-alpha-25);
+    border: 1px solid var(--white-alpha-40);
 }
 
 /* ----------------- 
