@@ -172,6 +172,18 @@ ul {
    }
 }
 
+/* ----------------- OVERLAY ----------------- */
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    opacity: 0.5;
+    z-index: 200;
+}
+
 /* ------------------------------------
   Custom Scrollbar 
   ------------------------------------ */
