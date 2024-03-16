@@ -179,8 +179,7 @@ ul {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: red;
-    opacity: 0.5;
+    background-color:transparent;
     z-index: 200;
     visibility: hidden;
 }
@@ -804,3 +803,9 @@ Portfolio Section
     color: var(--white);
     background-color: var(--blue);
 }
+
+
+
+/* ---------------------- 
+     Responsive  
+---------------------------------------------*/
