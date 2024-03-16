@@ -144,6 +144,10 @@ img {
 /* ----------------- 
 Buttons 
 ----------------- */
+button{
+    font-family: inherit;
+    user-select: none;
+}
 .btn{
     line-height: 1.5;
     background-color: var(--white-alpha-25);
@@ -267,4 +271,20 @@ About Section
 }
 .about-img .img-box img{
     width: 100%;
+}
+.about-tabs{
+    margin-top: 20px;
+}
+.about-tabs .tab-item{
+    padding: 2px 0px;
+    background-color: transparent;
+    text-transform: capitalize;
+    border: none;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--blue);
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+    position: relative;
 }
