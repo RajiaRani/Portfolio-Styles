@@ -606,7 +606,13 @@ Portfolio Section
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     color: rgb(223, 64, 64);
-    font-size: 23px;
+    font-size: 21px;
     border-radius: 50%;
     cursor: pointer;
+    margin: 6px 4px 0 0;
+    transition: all 0.3s ease;
+}
+.contact-info-item .social-media-links a:hover{
+    color: var(--white);
+    background-color: var(--blue);
 }
