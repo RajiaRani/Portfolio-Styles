@@ -312,3 +312,21 @@ About Section
     opacity: 1;
     cursor: all;
 }
+.about-text .tab-content{
+    padding: 40px 0;
+}
+.about-text .timeline-item{
+    margin-bottom: 30px;
+}
+.about-text .timeline-item:last-child{
+    margin-bottom: 0;
+}
+.about-text .timeline-item .date{
+
+}
+.about-text .timeline-item h4{
+
+}
+.about-text .timeline-item p{
+
+}
