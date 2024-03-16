@@ -205,7 +205,10 @@ ul {
     right: 0;
     transform: translateY(8px);
 }
-
+.header .nav-toggler:hover span::before,
+.header .nav-toggler:hover span::after{
+    width: 50%;
+}
 
 /* ----------------- 
 Buttons 
