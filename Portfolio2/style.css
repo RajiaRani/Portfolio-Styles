@@ -98,6 +98,7 @@ section {
 .main {
     width: 1500px;
     margin: auto;
+    position: relative;
     transition: all 0.5s ease-in-out;
 }
 
@@ -168,14 +169,16 @@ ul {
     background-color: var(--main-color);
 }
 
-/* Header  */
+/* ----------------------------
+         Header 
+------------------------------------------------- */
 .header{
-    background-color: red;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
+    padding: 20px 0 0;
 }
 .header .nav-toggler{
     width: 50px;
@@ -188,6 +191,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 15px;
 }
 .header .nav-toggler span{
     height: 2px;
