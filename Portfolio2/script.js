@@ -1,6 +1,12 @@
 
 /* ----------------------- Toggle Navbar ------------------------------- */
-
+let navToggler = document.querySelector(".nav-toggler");
+navToggler.addEventListener("click", () => {
+    hideSection();
+});
+function  hideSection(){
+    document.querySelector("section.active").classList.toggle("fade-out");
+};
 
 /* ----------------------- About Tabs --------------------- */
 const tabContainer = document.querySelector(".about-tabs");
