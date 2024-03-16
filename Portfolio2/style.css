@@ -66,16 +66,24 @@ body::before {
     z-index: -1;
     opacity: 0.12;
 }
-body.hide-scrolling{
+
+body.hide-scrolling {
     overflow-y: hidden;
 }
-h1, h2{
+
+h1,
+h2 {
     font-weight: 600;
- }
-h3, h4, h5, h6{
-    font-weight: 500 ;
 }
-a{
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -92,7 +100,8 @@ section {
     margin: auto;
     transition: all 0.5s ease-in-out;
 }
-.main.fade-out{
+
+.main.fade-out {
     opacity: 0;
 }
 
@@ -105,9 +114,11 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-ul{
+
+ul {
     list-style: none;
 }
+
 .home-section {
     display: flex;
     padding: 0 120px;
@@ -116,22 +127,24 @@ ul{
 .align-items-center {
     align-items: center;
 }
-.hidden{
-    display: none !important;
-} 
 
-.sec-padding{
+.hidden {
+    display: none !important;
+}
+
+.sec-padding {
     padding: 80px 0;
 }
 
 /* Section Title */
-.section-title{
+.section-title {
     padding: 0 15px;
     width: 100%;
     text-align: center;
     margin-bottom: 40px;
 }
-.section-title h2{
+
+.section-title h2 {
     font-size: 40px;
     text-transform: capitalize;
 }
@@ -141,24 +154,27 @@ ul{
 /* ------------------------------------
   Custom Scrollbar 
   ------------------------------------ */
-  ::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 5px;
-  }
-  ::-webkit-scrollbar-track{
+}
+
+::-webkit-scrollbar-track {
     background-color: var(--white);
-  }
-  ::-webkit-scrollbar-thumb{
+}
+
+::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
-  }
+}
 
 /* ----------------- 
 Buttons 
 ----------------- */
-button{
+button {
     font-family: inherit;
     user-select: none;
 }
-.btn{
+
+.btn {
     line-height: 1.5;
     background-color: var(--white-alpha-25);
     padding: 10px 28px;
@@ -167,7 +183,7 @@ button{
     border-radius: 30px;
     color: var(--main-color);
     font-weight: 500;
-    text-transform:capitalize;
+    text-transform: capitalize;
     font-family: inherit;
     font-size: 16px;
     cursor: pointer;
@@ -177,7 +193,8 @@ button{
     vertical-align: middle;
     transition: color 0.3s ease;
 }
-.btn::before{
+
+.btn::before {
     content: "";
     position: absolute;
     top: 0;
@@ -188,12 +205,15 @@ button{
     z-index: -1;
     transition: width 0.3s ease;
 }
-.btn:hover::before{
+
+.btn:hover::before {
     width: 100%;
 }
-.btn:hover{
+
+.btn:hover {
     color: var(--white);
 }
+
 /* -------------------------------
    Home Section 
 --------------------------------- */
@@ -224,7 +244,8 @@ button{
     font-weight: 300;
     margin: 0 0 30px;
 }
-.home-text .btn{
+
+.home-text .btn {
     margin: 0 15px 15px 0;
 }
 
@@ -246,24 +267,28 @@ button{
 /* ----------------------
 About Section 
 ------------------------ */
-.about-text{
+.about-text {
     width: 60%;
     padding: 0 15px;
 }
-.about-text h3{
+
+.about-text h3 {
     font-size: 20px;
     text-transform: capitalize;
     margin: 20px 0;
 }
-.about-img{
+
+.about-img {
     width: 40%;
     padding: 0 15px;
 }
-.about-text .skills{
+
+.about-text .skills {
     display: flex;
     flex-wrap: wrap;
 }
-.about-text .skill-item{
+
+.about-text .skill-item {
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     padding: 5px 15px;
@@ -271,7 +296,8 @@ About Section
     margin: 0 10px 10px 0;
     border-radius: 20px;
 }
-.about-img .img-box{
+
+.about-img .img-box {
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     border-radius: 10px;
@@ -279,13 +305,16 @@ About Section
     margin: auto;
 
 }
-.about-img .img-box img{
+
+.about-img .img-box img {
     width: 100%;
 }
-.about-tabs{
+
+.about-tabs {
     margin-top: 20px;
 }
-.about-tabs .tab-item{
+
+.about-tabs .tab-item {
     padding: 2px 0px;
     background-color: transparent;
     text-transform: capitalize;
@@ -300,10 +329,12 @@ About Section
     opacity: 0.5;
     transition: all 0.3s ease;
 }
-.about-tabs .tab-item:last-child{
+
+.about-tabs .tab-item:last-child {
     margin: 0;
 }
-.about-tabs .tab-item::before{
+
+.about-tabs .tab-item::before {
     content: '';
     position: absolute;
     left: 0;
@@ -313,20 +344,23 @@ About Section
     background-color: var(--blue);
     transition: width 0.3s ease;
 }
-.about-tabs .tab-item:hover::before{
+
+.about-tabs .tab-item:hover::before {
     width: 100px;
     cursor: pointer;
 }
-.about-tabs .tab-item.active{
+
+.about-tabs .tab-item.active {
     color: var(--blue);
     opacity: 1;
     cursor: all;
 }
 
-.about-text .timeline{
+.about-text .timeline {
     position: relative;
 }
-.about-text .timeline::before{
+
+.about-text .timeline::before {
     content: '';
     background-color: var(--main-color);
     height: 100%;
@@ -336,20 +370,22 @@ About Section
     position: absolute;
 }
 
-.about-text .tab-content{
+.about-text .tab-content {
     padding: 40px 0;
     display: none;
 }
-.about-text .tab-content.active{
+
+.about-text .tab-content.active {
     display: block;
 }
 
-.about-text .timeline-item{
+.about-text .timeline-item {
     margin-bottom: 30px;
     padding: 10px 0 0 40px;
     position: relative;
 }
-.about-text .timeline-item::before{
+
+.about-text .timeline-item::before {
     content: '';
     position: absolute;
     left: 0;
@@ -359,60 +395,69 @@ About Section
     top: 16px;
     border: 50%;
 }
-.about-text .timeline-item:last-child{
+
+.about-text .timeline-item:last-child {
     margin-bottom: 0;
 }
-.about-text .timeline-item .date{
-display: block;
-color: var(--main-color);
-font-weight: 400;
-margin: 0 0 10px;
+
+.about-text .timeline-item .date {
+    display: block;
+    color: var(--main-color);
+    font-weight: 400;
+    margin: 0 0 10px;
 }
-.about-text .timeline-item h4{
-font-size: 18px;
-text-transform: capitalize;
-margin: 0 0 10px;
-color: var(--main-color);
+
+.about-text .timeline-item h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    color: var(--main-color);
 }
-.about-text .timeline-item h4 span{
- font-weight: 400;
+
+.about-text .timeline-item h4 span {
+    font-weight: 400;
 }
-.about-text .btn{
+
+.about-text .btn {
     margin: 0 15px 15px 0;
 }
 
 /* ----------------------
 Portfolio Section
 ------------------------------- */
-.portfolio-section{
+.portfolio-section {
     padding-bottom: 50px;
 }
 
-.portfolio-item-thumbnail{
+.portfolio-item-thumbnail {
     padding: 10px;
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     border-radius: 10px;
 }
-.portfolio-item-thumbnail img{
+
+.portfolio-item-thumbnail img {
     width: 100%;
     border-radius: 10px;
 }
-.portfolio-item-details{
+
+.portfolio-item-details {
     display: none;
 }
-.portfolio-item{
+
+.portfolio-item {
     width: calc((100%/3) - 30px);
     margin: 0 15px 30px;
 }
-.portfolio-item h3{
+
+.portfolio-item h3 {
     font-size: 20px;
     text-transform: capitalize;
     margin: 20px 0;
 }
 
 /* Portfolio Item Details Popup  */
-.portfolio-popup{
+.portfolio-popup {
     position: fixed;
     left: 0;
     top: 0;
@@ -421,23 +466,27 @@ Portfolio Section
     z-index: 200;
     visibility: hidden;
 }
-.portfolio-popup.open{
+
+.portfolio-popup.open {
     visibility: visible;
     overflow-y: auto;
 }
-.portfolio-popup.open .pp-content{
+
+.portfolio-popup.open .pp-content {
     opacity: 1;
     transform: scale(1);
     transition: all 0.5s ease;
 }
-.pp-inner{
+
+.pp-inner {
     min-height: 100vh;
     padding: 40px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pp-content{
+
+.pp-content {
     background-color: var(--white-alpha-25);
     padding: 30px;
     border-radius: 30px;
@@ -447,10 +496,12 @@ Portfolio Section
     backdrop-filter: var(--black-filter-blur);
 
 }
-.pp-header{
+
+.pp-header {
     position: relative;
 }
-.pp-header .btn{
+
+.pp-header .btn {
     height: 40px;
     width: 40px;
     display: flex;
@@ -460,67 +511,89 @@ Portfolio Section
     top: -40px;
     right: -40px;
 }
-.pp-thumbnail img{
-  border-radius: 10px;
+
+.pp-thumbnail img {
+    border-radius: 10px;
 }
-.pp-header h3{
+
+.pp-header h3 {
     font-size: 25px;
     text-transform: capitalize;
     margin: 20px 0 15px;
 }
+
 .pp-body .description {
     margin-bottom: 30px;
 }
-.pp-body .general-info li{
+
+.pp-body .general-info li {
     margin-bottom: 10px;
     text-transform: capitalize;
     font-weight: 500;
 }
-.pp-body .general-info li span{
+
+.pp-body .general-info li span {
     font-weight: 300;
 }
-.pp-body .general-info li a{
+
+.pp-body .general-info li a {
     text-transform: lowercase;
     color: red;
 }
 
- /* ----------------------------
+/* ----------------------------
            Contact Section 
  ------------------------------------------- */
- .contact-form ,
- .contact-info{
+.contact-form,
+.contact-info {
     width: 50%;
     padding: 0 15px;
- }
- .contact-form .input-group{
+}
+
+.contact-form .input-group {
     width: 100%;
     margin-bottom: 30px;
- }
- .contact-form .input-control::before{
+}
+
+.contact-form .input-control::before {
     color: var(--blue);
     font-weight: 300;
     opacity: 0.8;
- }
- .contact-form .input-control{
-     display: block;
-     width: 100%;
-     height: 50px;
-     border: none;
-     border-radius: 25px;
-     font-family: inherit;
-     font-weight: 400;
-     font-size: 16px;
-     background-color: var(--white-alpha-25);
-     border: 1px solid transparent;
-     padding: 0 20px;
-     color: var(--blue);
-     transition: border-color 0.3s ease;
- }
- .contact-form .input-control:focus{
+}
+
+.contact-form .input-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: var(--white-alpha-25);
+    border: 1px solid transparent;
+    padding: 0 20px;
+    color: var(--blue);
+    transition: border-color 0.3s ease;
+}
+
+.contact-form .input-control:focus {
     border-color: var(--white-alpha-40);
- }
- .contact-form textarea.input-control{
+}
+
+.contact-form textarea.input-control {
     height: 120px;
     resize: none;
     padding-top: 15px;
- }
+}
+.contact-info-item{
+    margin: 0 0 30px;
+    width: 100%;
+    padding: 0 0 0 20px;
+}
+.contact-info-item h3{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 0 0 5px;
+
+}
