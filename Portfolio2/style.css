@@ -377,10 +377,7 @@ Portfolio Section
 .portfolio-section{
     padding-bottom: 50px;
 }
-.portfolio-item{
-    width: calc((100%/3) - 30px);
-    margin: 0 15px 30px;
-}
+
 .portfolio-item-thumbnail{
     padding: 10px;
     background-color: var(--white-alpha-25);
@@ -393,6 +390,10 @@ Portfolio Section
 }
 .portfolio-item-details{
     display: none;
+}
+.portfolio-item{
+    width: calc((100%/3) - 30px);
+    margin: 0 15px 30px;
 }
 .portfolio-item h3{
     font-size: 20px;
@@ -408,9 +409,23 @@ Portfolio Section
     height: 100%;
     width: 100%;
     z-index: 200;
+    overflow-y: auto;
 }
 
 .pp-inner{
     min-height: 100vh;
     padding: 40px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pp-content{
+    background-color: var(--white-alpha-25);
+    padding: 30px;
+    border-radius: 30px;
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid var(--white-alpha-40);
+    backdrop-filter: var(--black-filter-blur);
+
 }
