@@ -287,4 +287,28 @@ About Section
     font-weight: 500;
     margin-right: 30px;
     position: relative;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+.about-tabs .tab-item:last-child{
+    margin: 0;
+}
+.about-tabs .tab-item::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1.3px;
+    background-color: var(--blue);
+    transition: width 0.3s ease;
+}
+.about-tabs .tab-item:hover::before{
+    width: 100px;
+    cursor: pointer;
+}
+.about-tabs .tab-item.active{
+    color: var(--blue);
+    opacity: 1;
+    cursor: all;
 }
