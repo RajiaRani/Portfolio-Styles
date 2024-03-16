@@ -322,11 +322,17 @@ About Section
     margin-bottom: 0;
 }
 .about-text .timeline-item .date{
-
+display: block;
+color: var(--main-color);
+font-weight: 400;
+margin: 0 0 10px;
 }
 .about-text .timeline-item h4{
-
+font-size: 18px;
+text-transform: capitalize;
+margin: 0 0 10px;
+color: var(--main-color);
 }
-.about-text .timeline-item p{
-
+.about-text .timeline-item h4 span{
+ font-weight: 400;
 }
