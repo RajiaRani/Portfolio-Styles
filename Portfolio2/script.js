@@ -13,6 +13,28 @@ function toggleNavbar(){
     document.querySelector(".header").classList.toggle("active");
 }
 
+/* ----------------------- Active Section ---------------------- */
+document.addEventListener("click", (e)=> {
+    if(e.target.classList.contains("link-item")&& e.target.hash !== ""){
+        const hash = e.target.hash;
+        //console.log(hash);
+        if(e.target.classList.contains("nav-item")){
+            //console.log("true");
+            toggleNavbar();
+        } else {
+            //console.log("false");
+            hideSection();
+            document.body.classList.add("hide-scrolling");
+        }
+        setTimeout(()=> {
+            document.querySelector("section.active").classList.remove("active", "fade-out");
+            document.querySelector(e.target.hash).classList.add("active");
+            window.scrollTo(0,0);
+            document.body.classList.remove("hide-scrolling")
+        }, 500)
+    }
+})
+
 /* ----------------------- About Tabs --------------------- */
 const tabContainer = document.querySelector(".about-tabs");
 const aboutSection = document.querySelector(".about-section");
