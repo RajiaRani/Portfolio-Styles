@@ -496,6 +496,11 @@ Portfolio Section
     width: 100%;
     margin-bottom: 30px;
  }
+ .contact-form .input-control::before{
+    color: var(--blue);
+    font-weight: 300;
+    opacity: 0.8;
+ }
  .contact-form .input-control{
      display: block;
      width: 100%;
@@ -506,5 +511,16 @@ Portfolio Section
      font-weight: 400;
      font-size: 16px;
      background-color: var(--white-alpha-25);
+     border: 1px solid transparent;
+     padding: 0 20px;
+     color: var(--blue);
+     transition: border-color 0.3s ease;
  }
- 
+ .contact-form .input-control:focus{
+    border-color: var(--white-alpha-40);
+ }
+ .contact-form textarea.input-control{
+    height: 120px;
+    resize: none;
+    padding-top: 15px;
+ }
