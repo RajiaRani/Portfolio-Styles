@@ -95,6 +95,9 @@ section {
     backdrop-filter: var(--black-filter-blur);
     display: none;
 }
+section.active{
+    display: block;
+}
 
 .main {
     width: 1500px;
@@ -119,11 +122,6 @@ img {
 
 ul {
     list-style: none;
-}
-
-.home-section {
-    /* display: flex; */
-    padding: 0 120px;
 }
 
 .align-items-center {
@@ -332,6 +330,13 @@ button {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+.home-section {
+    /* display: flex; */
+    padding:  120px 0px;
+}
+.home-section.active{
+  display: flex;
 }
 
 .home-img,
