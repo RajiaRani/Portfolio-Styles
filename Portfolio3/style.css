@@ -443,3 +443,11 @@ h3.hello span {
     width: 100%;
     position: relative;
 }
+.about .about-content .timeline .timeline-item{
+    padding-left: 37px;
+    position: relative;
+    padding-bottom: 50px;
+}
+.about .about-content .timeline .timeline-item:last-child{
+    padding-bottom: 0;
+}
