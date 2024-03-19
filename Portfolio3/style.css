@@ -37,6 +37,11 @@ ul {
     padding-right: 15px;
 }
 
+.hidden{
+    display: none !important;
+}
+
+
 /* ============ Aside Contanier ============= */
 .aside {
     width: 270px;
@@ -175,7 +180,7 @@ ul {
     padding: 0 30px;
     display: block;
 }
-.main-container{
+.main-content{
     padding-left: 270px;
 }
 .container {
@@ -190,6 +195,11 @@ ul {
     margin-left: -15px;
     margin-right: -15px;
     position: relative;
+}
+
+.section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
 }
 
 /* ============= Home Section Image ============== */
@@ -277,4 +287,12 @@ h3.hello span {
 
 .btn:hover {
     transform: scale(1.05);
+}
+
+
+/*  ================== About Section ================== */
+.section-title{
+   flex: 0 0 100%;
+   max-width: 100%;
+   background-color: pink;
 }
