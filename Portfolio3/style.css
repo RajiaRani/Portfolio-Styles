@@ -103,7 +103,7 @@ ul {
     left: 300px;
     border-radius: 5px;
     background: var(--bg-black-100);
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
