@@ -10,6 +10,7 @@ body{
     box-sizing: none;
     line-height: 1.5;
     font-size: 16px;
+    font-family: 'poppins';
 }
 *{
     margin: 0;
@@ -23,6 +24,11 @@ body{
     box-sizing: border-box;
 }
 
+/* ========== Common Styling ============== */
+ul{
+    list-style: none;
+}
+
 /* ============ Aside Contanier ============= */
 .aside{
     width: 270px;
@@ -32,7 +38,20 @@ body{
     left: 0;
     z-index: 10;
     height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.logo{
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+/* ================ Main Content ===================== */
 .section{
     background-color: var(--bg-black-900);
     position: fixed;
