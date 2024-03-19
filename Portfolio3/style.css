@@ -97,6 +97,8 @@ ul {
     height: 40px;
     width: 45px;
     border: 1px solid var(--bg-black-50);
+    cursor: pointer;
+    position: fixed;
 }
 
 .aside .nav {
