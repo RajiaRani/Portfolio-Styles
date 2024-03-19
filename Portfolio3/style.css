@@ -93,6 +93,10 @@ ul {
 .aside .nav{
     margin-top: 50px;
 }
+.aside .nav li{
+    margin-bottom: 20px;
+    display: block;
+}
 /* ================ Main Content ===================== */
 .section {
     background-color: var(--bg-black-900);
