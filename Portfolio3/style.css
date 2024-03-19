@@ -99,6 +99,19 @@ ul {
     border: 1px solid var(--bg-black-50);
     cursor: pointer;
     position: fixed;
+    top: 20px;
+    left: 300px;
+    border-radius: 5px;
+    background: var(--bg-black-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside .nav-toggler span{
+    height: 2px;
+    width: 18px;
+    background: var(--skin-color);
+    display: inline-block;
 }
 
 .aside .nav {
