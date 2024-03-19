@@ -346,10 +346,10 @@ h3.hello span {
 .about .about-content .personal-info{
     flex: 0 0 60%;
     max-width: 60%;
-    background-color: pink;
+    margin-top: 40px;
 }
 .about .about-content .skills{
     flex: 0 0 40%;
     max-width: 40%;
-    background-color: red;
+    margin-top: 40px;
 }
