@@ -54,7 +54,6 @@ ul{
     color: var(--text-black-900);
     font-weight: 700;
     padding: 15px 20px;
-    background: red;
     font-size: 30px;
     letter-spacing: 5px;
     position: relative;
@@ -64,6 +63,15 @@ ul{
     font-weight: 400;
     font-style: normal;
     font-family: 40px;
+}
+.aside .logo a::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+    position: absolute;
+
 }
 
 /* ================ Main Content ===================== */
