@@ -112,6 +112,7 @@ ul {
     width: 18px;
     background: var(--skin-color);
     display: inline-block;
+    position: relative;
 }
 
 .aside .nav {
