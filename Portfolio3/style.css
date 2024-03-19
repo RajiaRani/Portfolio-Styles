@@ -105,6 +105,13 @@ ul {
     border-bottom: 1px solid var(--bg-black-50);
     color: var(--text-black-900);
 }
+.aside .nav li a i{
+    margin-right: 15px;
+}
+.aside .nav li a.active{
+    color: var(--skin-color);
+}
+
 /* ================ Main Content ===================== */
 .section {
     background-color: var(--bg-black-900);
