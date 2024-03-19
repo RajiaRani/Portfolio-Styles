@@ -90,7 +90,9 @@ ul {
     top: 0;
     right: 0; 
 }
-
+.aside .nav{
+    margin-top: 50px;
+}
 /* ================ Main Content ===================== */
 .section {
     background-color: var(--bg-black-900);
