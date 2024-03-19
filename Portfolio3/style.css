@@ -469,4 +469,17 @@ h3.hello span {
     border-radius: 50%;
     background-color: var(--skin-color);
 }
- 
+.about .about-content .timeline .timeline-date{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
+}
+.about .about-content .timeline .timeline-date .fa{
+    margin-right: 5px;
+}
+.about .about-content .timeline .timeline-title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
