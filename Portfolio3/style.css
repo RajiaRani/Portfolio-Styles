@@ -114,6 +114,24 @@ ul {
     display: inline-block;
     position: relative;
 }
+.aside .nav-toggler span::before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 0;
+    height: 2px;
+    width: 18px;
+    background-color: var(--skin-color);
+}
+.aside .nav-toggler span::after{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 2px;
+    width: 18px;
+    background-color: var(--skin-color);
+}
 
 .aside .nav {
     margin-top: 50px;
