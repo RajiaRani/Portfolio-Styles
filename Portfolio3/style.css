@@ -26,8 +26,17 @@ body{
 /* ============ Aside Contanier ============= */
 .aside{
     width: 270px;
-    background-color: var(--text-black-700);
+    background-color: var(--text-black-100);
     position: fixed;
     top: 0;
     left: 0;
+}
+.section{
+    background-color: var(--bg-black-900);
+    position: fixed;
+    left: 270px;
+    min-height: 100vh;
+    display: block;
+    top: 0;
+    right: 0;
 }
