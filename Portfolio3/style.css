@@ -228,5 +228,16 @@ h3.hello span{
 .home-info p{
     margin-bottom: 70px;
     font-size: 20px;
-    color: var(--text-black-700);
+}
+
+/* ============== Button ================= */
+.btn{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 35px;
+    background-color: var(--skin-color);
+    color: white;
+    border: 1px solid var(--bg-black-900);
+    border-radius: 40px;
+    display: inline-block;
 }
