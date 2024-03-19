@@ -387,4 +387,15 @@ h3.hello span {
     font-weight: 600;
     font-size: 16px;
     color: var(--text-black-900);
+    text-transform:capitalize;
+}
+.about .about-content .skills .skill-item .progress{
+   background-color: var(--bg-black-50);
+   height: 7px;
+   border-radius: 4px;
+   width: 100%;
+   position: relative;
+}
+.about .about-content .skills .skill-item{
+    margin-bottom: 30px;
 }
