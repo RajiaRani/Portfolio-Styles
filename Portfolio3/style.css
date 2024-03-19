@@ -97,6 +97,14 @@ ul {
     margin-bottom: 20px;
     display: block;
 }
+.aside .nav li a{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 15px;
+    display: block;
+    border-bottom: 1px solid var(--bg-black-50);
+    color: var(--text-black-900);
+}
 /* ================ Main Content ===================== */
 .section {
     background-color: var(--bg-black-900);
