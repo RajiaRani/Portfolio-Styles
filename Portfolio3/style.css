@@ -32,7 +32,7 @@ ul {
     list-style: none;
 }
 
-.padd-15{
+.padd-15 {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -73,7 +73,7 @@ ul {
     font-family: "Clicker Script", cursive;
     font-weight: 400;
     font-style: normal;
-    font-family: 40px;
+    font-size: 40px;
 }
 
 .aside .logo a::before {
@@ -112,14 +112,16 @@ ul {
     justify-content: center;
     align-items: center;
 }
-.aside .nav-toggler span{
+
+.aside .nav-toggler span {
     height: 2px;
     width: 18px;
     background: var(--skin-color);
     display: inline-block;
     position: relative;
 }
-.aside .nav-toggler span::before{
+
+.aside .nav-toggler span::before {
     content: '';
     position: absolute;
     top: -6px;
@@ -128,7 +130,8 @@ ul {
     width: 18px;
     background-color: var(--skin-color);
 }
-.aside .nav-toggler span::after{
+
+.aside .nav-toggler span::after {
     content: '';
     position: absolute;
     top: 6px;
@@ -177,12 +180,14 @@ ul {
     z-index: 0;
     padding: 0 30px;
 }
-.container{
+
+.container {
     max-width: 1100px;
     margin: auto;
     width: 100%;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
     margin-left: -15px;
@@ -191,57 +196,76 @@ ul {
 }
 
 /* ============= Home Section Image ============== */
-.home{
+.home {
     height: 100vh;
     display: flex;
     color: var(--text-black-900);
 }
-.home .home-img img{
+
+.home .home-img img {
     height: 400px;
+    margin: auto;
+    border-radius: 5px;
 }
-.home .home-img{
+
+.home .home-img {
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
 }
-.home .home-img::before{
+
+.home .home-img::after {
     content: '';
     position: absolute;
     bottom: -40px;
-    right: 20px;
+    right: -20px;
     height: 80px;
     width: 80px;
     border-bottom: 5px solid var(--skin-color);
     border-right: 5px solid var(--skin-color);
 }
-.home .home-info{
+
+.home .home-img::before {
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: -20px;
+    height: 80px;
+    width: 80px;
+    border-top: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color);
+}
+
+.home .home-info {
     flex: 0 0 60%;
     max-width: 60%;
 }
+
 h3.hello,
-h3.my-profession{
+h3.my-profession {
     font-size: 28px;
     margin: 15px 0;
 }
 
-h3.hello span{
+h3.hello span {
     font-family: "Clicker Script", cursive;
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
 }
 
-.typing{
+.typing {
     color: var(--skin-color);
 }
-.home-info p{
+
+.home-info p {
     margin-bottom: 70px;
     font-size: 20px;
 }
 
 /* ============== Button ================= */
-.btn{
+.btn {
     font-weight: 500;
     font-size: 16px;
     padding: 12px 35px;
@@ -253,6 +277,7 @@ h3.hello span{
     white-space: nowrap;
     transition: all 0.3s ease;
 }
-.btn:hover{
+
+.btn:hover {
     transform: scale(1.05);
 }
