@@ -518,5 +518,9 @@ h3.hello span {
     display: block;
     margin: 0 auto 30px;
     text-align: center;
-    background-color: #302e4d;
+}
+.service .service-item .service-item-inner .icon .fa{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
 }
