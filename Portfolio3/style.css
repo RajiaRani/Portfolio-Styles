@@ -333,4 +333,13 @@ h3.hello span {
 .about .about-content .about-text h3{
     font-size: 24px;
     margin-bottom: 15px;
+    color: var(--text-black-900);
+}
+.about .about-content .about-text h3 span{
+    color: var(--skin-color);
+}
+.about .about-content .about-text p{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
 }
