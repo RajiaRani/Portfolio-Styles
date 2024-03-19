@@ -377,3 +377,9 @@ h3.hello span {
     margin-right: 15px;
     margin-top: 10px;
 }
+
+.about .about-content .skills .skill-item{
+    flex: 0 0 100% ;
+    max-width: 100%;
+    background-color: yellow;
+}
