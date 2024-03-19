@@ -1,36 +1,39 @@
-:root{
-    --bg-black-900:#f2f2fc;
-    --bg-black-100:#fdf9ff;
-    --bg-black-50:#e8dfec;
-    --text-black-900:#302e4d;
-    --text-black-700:#504e70;
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
 
 }
-body{
+
+body {
     box-sizing: none;
     line-height: 1.5;
     font-size: 16px;
     font-family: 'poppins';
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     outline: none;
     box-sizing: border-box;
 }
-::before, 
-::after{
+
+::before,
+::after {
     box-sizing: border-box;
 }
 
 /* ========== Common Styling ============== */
-ul{
+ul {
     list-style: none;
 }
 
 /* ============ Aside Contanier ============= */
-.aside{
+.aside {
     width: 270px;
     background-color: var(--text-black-100);
     position: fixed;
@@ -44,13 +47,14 @@ ul{
     align-items: center;
 }
 
-.aside .logo{
+.aside .logo {
     position: absolute;
     top: 50px;
     font-size: 30px;
     text-transform: capitalize;
 }
-.aside .logo a{
+
+.aside .logo a {
     color: var(--text-black-900);
     font-weight: 700;
     padding: 15px 20px;
@@ -58,24 +62,27 @@ ul{
     letter-spacing: 5px;
     position: relative;
 }
-.aside .logo a span{
+
+.aside .logo a span {
     font-family: "Clicker Script", cursive;
     font-weight: 400;
     font-style: normal;
     font-family: 40px;
 }
-.aside .logo a::before{
+
+.aside .logo a::before {
     content: '';
     width: 20px;
     height: 20px;
     border-bottom: 5px solid var(--skin-color);
     border-left: 5px solid var(--skin-color);
     position: absolute;
-
+    bottom: 0;
+    left: 0;
 }
 
 /* ================ Main Content ===================== */
-.section{
+.section {
     background-color: var(--bg-black-900);
     position: fixed;
     left: 270px;
