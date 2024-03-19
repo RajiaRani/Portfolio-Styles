@@ -178,7 +178,6 @@ ul {
 }
 .container{
     max-width: 1100px;
-    background-color: pink;
     margin: auto;
     width: 100%;
 }
@@ -198,4 +197,14 @@ ul {
 }
 .home .home-img img{
     height: 400px;
+}
+.home .home-img{
+    flex: 0 0 40%;
+    max-width: 40%;
+    background-color: #302e4d;
+    text-align: center;
+}
+.home .home-info{
+    flex: 0 0 60%;
+    max-width: 60%;
 }
