@@ -182,6 +182,14 @@ ul {
     margin: auto;
     width: 100%;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+}
+
 /* ============= Home Section Image ============== */
 .home .home-img img{
     height: 400px;
