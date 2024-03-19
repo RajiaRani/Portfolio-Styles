@@ -295,4 +295,11 @@ h3.hello span {
    flex: 0 0 100%;
    max-width: 100%;
    background-color: pink;
+   text-transform: capitalize;
+}
+.section-title h2{
+    font-size: 40px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    position: relative;
 }
