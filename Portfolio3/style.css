@@ -205,6 +205,16 @@ ul {
     text-align: center;
     position: relative;
 }
+.home .home-img::before{
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    right: 20px;
+    height: 80px;
+    width: 80px;
+    border-bottom: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+}
 .home .home-info{
     flex: 0 0 60%;
     max-width: 60%;
@@ -240,4 +250,9 @@ h3.hello span{
     border: 1px solid var(--bg-black-900);
     border-radius: 40px;
     display: inline-block;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    transform: scale(1.05);
 }
