@@ -36,6 +36,7 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 /* ============ Aside Contanier ============= */
 .aside {
     width: 270px;
@@ -201,10 +202,31 @@ ul {
 .home .home-img{
     flex: 0 0 40%;
     max-width: 40%;
-    background-color: #302e4d;
     text-align: center;
+    position: relative;
 }
 .home .home-info{
     flex: 0 0 60%;
     max-width: 60%;
+}
+h3.hello,
+h3.my-profession{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+h3.hello span{
+    font-family: "Clicker Script", cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+
+.typing{
+    color: var(--skin-color);
+}
+.home-info p{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--text-black-700);
 }
