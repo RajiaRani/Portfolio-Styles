@@ -170,15 +170,10 @@ ul {
 /* ================ Main Content ===================== */
 .section {
     background-color: var(--bg-black-900);
-    position: fixed;
-    left: 270px;
     min-height: 100vh;
-    display: block;
-    top: 0;
-    right: 0;
     opacity: 1;
-    z-index: 0;
     padding: 0 30px;
+    display: block;
 }
 
 .container {
