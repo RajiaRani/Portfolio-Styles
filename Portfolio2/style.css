@@ -645,7 +645,9 @@ Portfolio Section
     margin: 20px 0;
 }
 
-/* Portfolio Item Details Popup  */
+/* ========================================
+    Portfolio Item Details Popup 
+    =============================================== */
 .portfolio-popup {
     position: fixed;
     left: 0;
