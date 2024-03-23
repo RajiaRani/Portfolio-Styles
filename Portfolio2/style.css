@@ -87,6 +87,8 @@ a {
     text-decoration: none;
 }
 
+
+/* ============== SECTION ================ */
 section {
     background-color: var(--white-alpha-25);
     border: 2px solid var(--white-alpha-40);

@@ -37,7 +37,7 @@ document.addEventListener("click", (e)=> {
             document.querySelector(".overlay").classList.remove("active");
         }, 500)
     }
-})
+});
 
 /* ----------------------- About Tabs --------------------- */
 const tabContainer = document.querySelector(".about-tabs");
